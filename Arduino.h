@@ -41,7 +41,7 @@ void setup ()
   Serial.begin(9600);
   //interruptSetup();
  
-  WiFi.begin("hvk", "emborracharlas");
+  WiFi.begin("user", "password");
 
   while (WiFi.status() != WL_CONNECTED) {  //Wait for the WiFI connection completion
  
